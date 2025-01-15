@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>John Nino Gwapo</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <div class="logo">About John Nino</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#photos">Photos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="hero-container">
+        <h1>Welcome to my Website</h1>
+        <div class="hero-buttons">
+          <a href="#photos" class="btn-primary">View Photos</a>
+          <a href="#contact" class="btn-secondary">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="aboutme.jpg" alt="Professional headshot">
+        <div class="about-text">
+          <p> " Im John Nino Quiseo, Currently studying at CTU-Daanbantayan Campus. Im very Passionate about Trading Industry and have experinece in that field for almost 3 years. Im a good person handsome and have a sense of humor ".</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="photos" class="container">
+      <h2>Featured Photos</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="s1.jpg" alt="Project 1">
+          <h3>Photo One</h3>
+         
+        </div>
+        <div class="project-card">
+          <img src="s2.jpg" alt="Project 2">
+          <h3>Photo Two</h3>
+          
+        </div>
+        <div class="project-card">
+          <img src="s3.jpg" alt="Project 3">
+          <h3>Photo Three</h3>
+          
+        </div>
+        <div class="project-card">
+            <img src="s4.jpg" alt="Project 1">
+            <h3>Photo four</h3>
+            
+          </div>
+          <div class="project-card">
+            <img src="s5.jpg" alt="Photo 2">
+            <h3>Photo five</h3>
+            
+          </div>
+          <div class="project-card">
+            <img src="s6.jpg" alt="Project 3">
+            <h4>Photo six</h4>
+          
+          </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact Me</h2>
+      <form onsubmit="sendWhatsAppMessage(event)">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+    </section>
+    
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+
+    <section id="contact" class="container">
+      <h2>Follow Me</h2>
+          <div class="social-links">
+            
+            </a>
+            <a href="https://www.facebook.com/sapnupuasjizz" target="_blank" title="Facebook">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com/sapnupuasjizz" target="_blank" title="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/eros_fx1" target="_blank" title="Instagram">
+              <i class="fab fa-instagram"></i>
+          
+            
+            </a>
+          </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Code John Nino Gwapo. All rights reserved.</p>
+  </footer>
+</body>
+</html>
